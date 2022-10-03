@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+ /*AÑADIR OTRA FUENTE DE LETRA*/
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+ol{
+list-style: none;
+list-style-type: circle;
+}
+
+.submit{
+   display: flex;
+   justify-content: center;
+
+}
+
+fieldset{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+
+.telf{
+    font-size: 16px;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+
+p{
+    font-size: 18px;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+/*AÑADIR UBICACIÓN*/
+
