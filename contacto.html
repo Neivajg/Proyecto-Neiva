@@ -2,7 +2,10 @@
 <html>
 <!--INFORMACIÓN PARA RECIBIR INFORMACIÓN DE RUTAS O EVENTOS -->
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/root.css">
     <link rel="stylesheet" href="./css/stylecontacto.css">
 
 </head>
@@ -10,6 +13,35 @@
 <body>
     
     <header>
+        <div id="nav">
+            <img class="menu" src="./img/menu1.png" alt="Hamburguesa Menu">
+            <ul>
+                <li>
+                    <a href="./index.html">
+                     Inicio
+                    </a>
+                 </li>
+                <li>
+                   <a class="quitar" href="./contacto.html">
+                     contacto
+                   </a>
+                </li>
+            
+                <li>
+                    <a href="./portfolio.html">
+                      portafolio
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="./biografia.html">
+                        biografía
+                    </a>
+                </li>
+            
+                </div>
+            </ul>
+
         <h1>Rellene el formulario para más información</h1> 
 
     <fieldset><legend>Información requerida:</legend>
@@ -20,7 +52,7 @@
     
                 <div>
                     <label for="nombre" > Nombre:  
-                        <input  type="texto" placeholder="nombre" autofocus requerid>
+                        <input  type="texto" placeholder="Nombre" autofocus requerid>
                     </label>
                 </div>
             </li>
@@ -57,7 +89,7 @@
             <li>
                 <div>
                      <label for="enviar">Correo electronico:    
-                        <input type="email" placeholder="e-mail" autofocus required>   
+                        <input type="email" placeholder="E-mail" autofocus required>   
                      </label> 
                 </div>
             </li>
@@ -76,18 +108,19 @@
     </fieldset>
     </header>
 
-<p> ó también puedes recibir información telefonica o venir a nuestras oficinas: </p>
+        <p> ó también puedes recibir información telefonica o venir a nuestras oficinas: </p>
+        <p class="telf">Número de teléfono: +34663477318</p>
 
-<p class="telf">Número de teléfono: +34663477318</p>
+        <div class="gif" >
+            <img src="./video/tap-click.gif" alt="click">
+        </div>
 
-<!--AÑADIR LA UBICACIÓN SI VEMOS Js ANTES DE LA ENTREGA -->
-<p>AÑADIR UBICACION OFICINA CON JAVA </p>
-
-
-<div id="ubicación">
-
-
-</div>
+        <div id="ubicación">
+             UBICACIÓN OFICINAS:
+             <a class="ubi" href="https://goo.gl/maps/UDZsBzGWWu8pYhyV9 ">
+            https://goo.gl/maps/UDZsBzGWWu8pYhyV9 
+              </a>
+            </div>
 
 </body>
 </html>
